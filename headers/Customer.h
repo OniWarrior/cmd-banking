@@ -19,7 +19,12 @@ private:
 	std::string m_email_addr;  //      customer email address
 public:
 
-	Customer(Customer customer);
+	Customer(int cid,
+		     std::string f_name,
+		     std::string l_name,
+		     std::string addr,
+		     std::string phone_num,
+		     std::string email_addr);
 
 	// accessors - methods to retrieve current attribute values of object
 	int get_cid();
