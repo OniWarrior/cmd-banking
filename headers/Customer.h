@@ -35,12 +35,12 @@ public:
 	std::string get_email_addr();
 
 	// mutators - methods to set/update attribute values of object
-	int set_cid(int cid);
-	std::string set_first_name(std::string f_name);            // f_name    : new first name param
-	std::string set_last_name(std::string l_name);            //  l_name    : new last name param
-	std::string set_addr(std::string addr);                  //   addr      : new address param
-	std::string set_phone_num(std::string phone_num);       //    phone_num : new phone number param
-	std::string set_email_addr(std::string email_addr);    //     email_addr: new email address param
+	set_cid(int cid);
+	set_first_name(std::string f_name);            // f_name    : new first name param
+	set_last_name(std::string l_name);            //  l_name    : new last name param
+	set_addr(std::string addr);                  //   addr      : new address param
+	set_phone_num(std::string phone_num);       //    phone_num : new phone number param
+	set_email_addr(std::string email_addr);    //     email_addr: new email address param
 };
 
 

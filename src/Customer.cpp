@@ -22,6 +22,10 @@ Customer::Customer(int cid,
 	this->m_email_addr  = email_addr;
 }
 
+// public interface
+
+//------------------------------------------------------------
+
 // get_cid(): retrieve the customer ID.
 int Customer::get_cid() { return m_cid; }
 
@@ -39,3 +43,23 @@ std::string Customer::get_phone_num() { return m_phone_num; }
 
 // get_email_addr(): retrieve the email address of the customer
 std::string Customer::get_email_addr() { return m_email_addr; }
+
+//--------------------------------------------------------------
+
+// set_cid(int cid): sets the value of the customer id
+Customer::set_cid(int cid) { this->m_cid = cid; }
+
+// set_first_name(std::string f_name): sets the first name of the customer
+Customer::set_first_name(std::string f_name) { this->m_first_name = f_name; }
+
+// set_last_name(std::string l_name): sets the last name of the customer
+Customer::set_last_name(std::string l_name) { this->m_last_name = l_name; }
+
+// set_addr(std::string addr): sets the address of the customer
+Customer::set_addr(std::string addr) { this->m_addr = addr; }
+
+// set_phone_num(std::string phone_num): sets the phone number of the customer
+Customer::set_phone_num(std::string phone_num) { this->m_phone_num = phone_num; }
+
+// set_email_addr(std::string email_addr): sets the email address of the customer
+Customer::set_email_addr(std::string email_addr) { this->m_email_addr = email_addr; }
