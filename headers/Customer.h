@@ -5,8 +5,8 @@
 * Date   : 8/9/26
 */
 
-#ifndef __Customer__
-#define __Customer__
+#ifndef __CUSTOMER__
+#define __CUSTOMER__
 #include<string>
 
 class Customer {
