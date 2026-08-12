@@ -2,7 +2,7 @@
  * Author : Stephen Aranda
  * File   : Customer.cpp
  * Date   : 8/10/26
- * Desc   : Declaration for Customer class from Customer.h
+ * Desc   : Definition for Customer class from Customer.h
  */
 
 #include<headers/Customer.h>
